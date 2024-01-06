@@ -1,22 +1,79 @@
-import React from 'react'
-
 const ProjectCard = () => {
   return (
-    <div className='m-5'>
-        <div className='text-white bg-[#181818] w-[350px]'>
-            <img className='rounded-lg mx-auto' src={"https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg"} height={250} width={340} />
-            <h1>Title</h1>
-            <p>Description</p>
-            <h3>Technology Used</h3>
-            <ul>
-                <li>Tech 1</li>
-                <li>Tech 2</li>
-                <li>Tech 3</li>
-                <li>Tech 4</li>
-            </ul>
+    <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-2">
+      {/* Project 1 */}
+      <div
+        className="flex items-end overflow-hidden bg-cover rounded-lg h-96"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80')",
+        }}
+      >
+        <div className="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
+          <h2 className="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">
+            Best website collections
+          </h2>
+          <p className="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">
+            Website
+          </p>
         </div>
-    </div>
-  )
-}
+      </div>
 
-export default ProjectCard
+      {/* Project 2 */}
+      <div
+        className="flex items-end overflow-hidden bg-cover rounded-lg h-96"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1621609764180-2ca554a9d6f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80')",
+        }}
+      >
+        <div className="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
+          <h2 className="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">
+            Block of Ui kit collections
+          </h2>
+          <p className="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">
+            Ui kit
+          </p>
+        </div>
+      </div>
+
+      {/* Project 3 */}
+      <div
+        className="flex items-end overflow-hidden bg-cover rounded-lg h-96"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')",
+        }}
+      >
+        <div className="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
+          <h2 className="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">
+            Ton’s of mobile mockup
+          </h2>
+          <p className="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">
+            Mockups
+          </p>
+        </div>
+      </div>
+
+      {/* Project 4 */}
+      <div
+        className="flex items-end overflow-hidden bg-cover rounded-lg h-96"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1603380353725-f8a4d39cc41e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')",
+        }}
+      >
+        <div className="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
+          <h2 className="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">
+            Huge collection of animation
+          </h2>
+          <p className="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">
+            Animation
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ProjectCard;
