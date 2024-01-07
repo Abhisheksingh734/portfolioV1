@@ -57,7 +57,7 @@ const TiltCard = () => {
         rotateX,
         transformStyle: "preserve-3d",
       }}
-      className="relative h-96 w-72 rounded-xl bg-gradient-to-br from-indigo-300 to-violet-300"
+      className="relative h-96 w-96 rounded-xl bg-gradient-to-br from-indigo-300 to-violet-300"
     >
       <div
         style={{
@@ -78,7 +78,7 @@ const TiltCard = () => {
           }}
           className="text-center text-2xl font-bold"
         >
-          HOVER ME
+          MY Profile
         </p>
       </div>
     </motion.div>
