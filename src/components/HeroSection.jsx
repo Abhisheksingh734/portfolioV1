@@ -1,6 +1,5 @@
 // import React from 'react'
 import programmerLogo from "../assets/code-hero.webp";
-import BubbleButton from "../utils/BubbleButton";
 
 const HeroSection = () => {
   return (
